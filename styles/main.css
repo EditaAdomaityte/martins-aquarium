@@ -1,0 +1,47 @@
+.fish {
+    flex-basis: 30px;
+    flex-grow: 1;
+    max-width: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #d4e57f;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+header {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 10vh; /* Full viewport height */
+    background-color: aquamarine;
+}
+
+h1 {
+    text-align: center; /* Ensure the text is centered within the h1 */
+}
+.fish:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.fish__picture {
+    max-width: 10rem;
+}
+
+.location {
+    flex-basis: 30px;
+    flex-grow: 1;
+    max-width: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #e4ba5f;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}

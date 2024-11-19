@@ -43,7 +43,7 @@ export const database = {
         {
             name: "King of Sharks",
             species: "Megladon",
-            length: 5,
+            length: 'N/A',
             location: "Oceans",
             diet: "Omnivore",
             image: "https://deepseanews.com/wp-content/uploads/2017/12/VMNH_megalodon.jpg"
@@ -59,25 +59,26 @@ export const database = {
     ],
     tips: [
         {
-            topic: "Water Temperature",
-            text: "Maintain a consistent water temperature between 75-80°F for most tropical fish."
+            topic: "Diet",
+            text: "Feed once or twice a day on a set schedule."
+        },
+         {
+            topic: "Behavior",
+            text: "Some of these species might require seperate tank from other fish, behavior issues may occur."
         },
         {
             topic: "Water Temperature",
             text: "Maintain a consistent water temperature between 65-70°F for most tropical fish."
         },
         {
-            topic: "Water Temperature",
-            text: "Maintain a consistent water temperature between 45-865°F for most tropical fish."
+            topic: "WARNING",
+            text: "Do not place fingers or other body parts in aquarium."
         },
         {
-            topic: "Water Temperature",
-            text: "Imposible to keep in any closed off tank. Water temperature data not available."
+            topic: "WARNING",
+            text: "Megladon Shark is imposible to keep in any closed off tank. Water temperature data not available."
         },
-        {
-            topic: "Water Temperature",
-            text: "Maintain a consistent water temperature between 55-65°F for most tropical fish."
-        },
+       
 
 
     ],
@@ -98,7 +99,7 @@ export const database = {
             description: "The Gulf of Mexico is an ocean basin and a marginal sea of the Atlantic Ocean, mostly surrounded by the North American continent."
         },
         {
-            name: "Ocians",
+            name: "Oceans",
             country: "Not determined",
             description: "Megalodon was adapted to warm tropical and subtropical locations around the globe. The species was so widely spread that megalodon teeth have been found on every continent except Antarctica."
         },

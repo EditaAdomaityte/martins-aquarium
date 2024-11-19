@@ -1,0 +1,27 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 300px; /* First column takes up available space, second column is fixed width */
+    gap: 20px; /* Adds space between the columns */
+    background-color: aquamarine;
+}
+
+/* Style the fishList and tipList sections */
+#fishList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create 2 equal-width columns */
+    gap: 20px; /* Space between items */
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+#tipList {
+    padding: 20px;
+    background-color: #7ac1b9; /* Example background color */
+}
+#locationList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create 2 equal-width columns */
+    gap: 20px; /* Space between items */
+    padding: 20px;
+    background-color: aquamarine;
+}
